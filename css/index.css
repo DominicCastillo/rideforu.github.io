@@ -1,0 +1,25 @@
+.mainForm {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 380px;
+    background-color: white; /* Set the background to white */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.logoImage{
+    width: 300px;
+    height: 300px;
+}
+
+.indexOptions{
+    background-color: rgba(0, 74, 173, 1); /* Bootstrap's primary color */
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    width: 380px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
