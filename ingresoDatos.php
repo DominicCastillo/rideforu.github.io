@@ -33,8 +33,8 @@
 
   <label class="formLabel" >Carnet de estudiante:</label><br>
   <input class="formInput" type="text" name="idpass" id="idpass"><br>
-
-  <input type="submit" value="Siguiente"><br><br>
+  <a href="inicioApp.php"><input type="submit" value="Siguiente"></a>
+  <br><br>
 
 </form>
 </center>

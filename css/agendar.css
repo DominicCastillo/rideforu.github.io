@@ -1,0 +1,88 @@
+.main {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  max-width: 380px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+
+.custom-select select {
+  display: none;
+}
+
+.select-selected {
+  background-color: #C0D0D7;
+  color: black;
+  border-radius: 15px;
+}
+
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: black transparent transparent transparent;
+}
+
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent black transparent;
+  top: 7px;
+}
+
+.select-items div,.select-selected {
+  color: black;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+.select-items {
+  width: 300px;
+  position: absolute;
+  background-color: #C0D0D7;
+  border-radius: 10px;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.btn{
+  width: 380px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  background-color: #004AAD;
+  border: none;
+  border-radius: 13px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+}
