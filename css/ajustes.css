@@ -1,0 +1,55 @@
+.main {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 380px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+  
+h2 {
+    text-align: center;
+}
+
+.back, .control, .item, .arrow {
+    height: auto;
+}
+
+.back {
+    width: 30px;
+}
+
+.control {
+    width: 250px;
+}
+
+.item {
+    width: 25px;
+    padding-left: 15px;
+}
+
+.arrow {
+    width: 15px;
+    padding-right: 15px;
+}
+
+.btn {
+    background-color: #325F9B;
+    border-radius: 10px;
+    padding: 10px 0;
+    display: flex; 
+    justify-content: center;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    display: flex;   
+    align-items: center;
+    justify-content: space-between; 
+    width: 100%; 
+}
+
+.btn a span {
+    flex-grow: 1;  
+    text-align: center; 
+}
