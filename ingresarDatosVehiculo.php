@@ -31,7 +31,7 @@
   <label class="formLabel" >Color de Vehículo:</label><br>
   <input class="formInput" type="text" name="carColor" id="carColors"><br>
 
-  <a href="inicioApp.php"><input type="submit" value="Siguiente"></a>
+  <a href="subirArchivosCarro.php"><input type="submit" value="Siguiente"></a>
   <br><br>
 
 </form>
