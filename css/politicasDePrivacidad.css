@@ -1,0 +1,27 @@
+.mainStyle {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 380px;
+    background-color: white; /* Set the background to white */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.mainText{
+    color: rgb(55, 55, 55);
+    text-align: justify;
+    font-size: larger;
+    margin: 10px;
+}
+
+.mainRules{
+    color: rgb(55, 55, 55);
+    text-align: justify;
+    font-size: large;
+    margin: none;
+}
+
+.checkBoxText{
+    color: rgb(55, 55, 55);
+    font-size: large;
+}
