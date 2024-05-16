@@ -30,7 +30,7 @@
 
 <a href="#">¿No tienes una cuenta?</a><br>
 
-<a href="ingresoDatos.php"><strong>Regístrate</strong></a>
+<a href="ingresoDatosConductor.php"><strong>Regístrate</strong></a>
 </form>
 
 </center>
