@@ -68,21 +68,3 @@ h2 {
 .select-items div:hover, .same-as-selected {
   background-color: rgba(0, 0, 0, 0.1);
 }
-
-.btn{
-  width: 380px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: medium;
-  background-color: #004AAD;
-  border: none;
-  border-radius: 13px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  margin-top: 20px;
-  text-align: center;
-}
-
-.btn a {
-  text-decoration: none;
-  color: white;
-}

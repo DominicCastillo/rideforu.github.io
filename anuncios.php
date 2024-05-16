@@ -11,36 +11,30 @@
         <h2>Anuncios y Eventos</h2>
         <h3>Eventos más recientes</h3>
         <div class="container">
-            <div class="content1" style="background-color: #325F9B;">
-                <p class="title">Transporte hacia UDB</p>
-                <p class="name">Jessica Alarcón</p>
+            <div class="content1" style="background-color: #79D970;">
                 <div class="ptj">
-                    <p class="title">100%</p>
+                    <h3>¡NUEVO PRODUCTO!</h3>
+                    <p align="center">Pruebalo hoy con un 10% en los comedores de la UDB del 15 al 20 de abril.</p>
+                    <p class="title">Drive 4u</p>
                 </div>
-                <p>Viaje disponible</p>
-                <div class="line"></div>
                 <br>
             </div>
             <br>
-            <div class="content2" style="background-color: #6383AE;">
-                <p class="title">Transporte hacia UDB</p>
-                <p class="name">Jessica Alarcón</p>
+            <div class="content2" style="background-color: #CBB7D2;">
                 <div class="ptj">
-                    <p class="title">100%</p>
+                    <h3>-DUO ALEGRIA-</h3>
+                    <p align="center">Al usar RIDE4U obten un 2x1 en tarta frutal. Valido del 13 al 17  de enero.</p>
+                    <p class="title">Drive 4u</p>
                 </div>
-                <p>Viaje disponible</p>
-                <div class="line"></div>
                 <br>
             </div>
             <br>
-            <div class="content3" style="background-color: #8EA5C3;">
-                <p class="title">Transporte hacia UDB</p>
-                <p class="name">Jessica Alarcón</p>
-                <div class="ptj">
-                    <p class="title">100%</p>
+            <div class="content3" style="background-color: #385DE0;">
+                <div class="">
+                    <h1>15%</h1>
+                    <h3>De descuento</h3>
+                    <h4>En tu segundo <br>viaje del día</h4>
                 </div>
-                <p>Viaje disponible</p>
-                <div class="line"></div>
                 <br>
             </div>
         </div>
