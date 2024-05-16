@@ -1,0 +1,35 @@
+.main {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 380px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.container {
+    height: 250px;
+    width: 100%;  
+    overflow-y: auto;
+}
+
+.usuario img {
+    width: 40px;
+    height: auto;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.usuario h3 {
+    display: inline;
+}
+
+.star {
+    display: inline;
+    text-align: left;
+}
+
+.star img {
+    width: 25px;
+    height: auto;
+    padding-right: 5px;
+}
