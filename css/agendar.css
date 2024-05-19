@@ -68,3 +68,16 @@ h2 {
 .select-items div:hover, .same-as-selected {
   background-color: rgba(0, 0, 0, 0.1);
 }
+
+.btn {
+background-color: #325F9B;
+border-radius: 10px;
+padding: 10px 0;
+text-align: center;
+}
+
+.btn a {
+text-decoration: none;
+color: white;
+width: 100%; 
+}
