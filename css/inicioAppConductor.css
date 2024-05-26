@@ -1,120 +1,120 @@
 .main {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    max-width: 380px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-  }
+  max-width: 380px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 .usuario img {
-    width: 40px;
-    height: auto;
-    vertical-align: middle;
-    padding-right: 10px;
+  height: auto;
+  vertical-align: middle;
+  padding-right: 10px;
+  width: 40px;
 }
 
 .usuario h4 {
-    display: inline;
+  display: inline;
 }
   
 .custom-select {
-    position: relative;
-    font-family: Arial;
-  }
+  font-family: Arial;
+  position: relative;
+}
   
 .custom-select select {
-    display: none;
-  }
+  display: none;
+}
   
 .select-selected {
-    background-color: #C0D0D7;
-    color: black;
-    border-radius: 15px;
-  }
+  color: black;
+  border-radius: 15px;
+  background-color: #C0D0D7;
+}
   
 .select-selected:after {
-    position: absolute;
-    content: "";
-    top: 14px;
-    right: 10px;
-    width: 0;
-    height: 0;
-    border: 6px solid transparent;
-    border-color: black transparent transparent transparent;
-  }
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: black transparent transparent transparent;
+  position: absolute;
+}
   
 .select-selected.select-arrow-active:after {
-    border-color: transparent transparent black transparent;
-    top: 7px;
-  }
+  top: 7px;
+  border-color: transparent transparent black transparent;
+}
   
 .select-items div,.select-selected {
-    color: black;
-    padding: 8px 16px;
-    border: 1px solid transparent;
-    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
-    cursor: pointer;
-    user-select: none;
-  }
+  color: black;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
   
 .select-items {
-    width: 300px;
-    position: absolute;
-    background-color: #C0D0D7;
-    border-radius: 10px;
-    top: 100%;
-    left: 0;
-    right: 0;
-    z-index: 99;
-  }
+  width: 300px;
+  position: absolute;
+  background-color: #C0D0D7;
+  border-radius: 10px;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
   
 .select-hide {
-    display: none;
-  }
+  display: none;
+}
   
 .select-items div:hover, .same-as-selected {
-    background-color: rgba(0, 0, 0, 0.1);
-  }
+  background-color: rgba(0, 0, 0, 0.1);
+}
   
 .btn{
-    width: 380px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-    background-color: #004AAD;
-    border: none;
-    border-radius: 13px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-top: 20px;
-    text-align: center;
-  }
+  width: 380px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  background-color: #004AAD;
+  border: none;
+  border-radius: 13px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
   
 .btn a {
-    text-decoration: none;
-    color: white;
-  }
+  text-decoration: none;
+  color: white;
+}
 
-  .navbar {
-    display: flex; 
-    justify-content: space-around; 
-    background-color: #D9D9D9;
-  }
+.navbar {
+  display: flex; 
+  justify-content: space-around; 
+  background-color: #D9D9D9;
+}
   
 .itemNav {
-    display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    text-align: center; 
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center; 
 }
   
 .itemNav a {
-    display: block; 
-    margin: 5px 0; 
-    color: black; 
-    text-decoration: none;
+  display: block; 
+  margin: 5px 0; 
+  color: black; 
+  text-decoration: none;
 }
   
 .itemNav img {
-    width: 30px; 
-    height: auto; 
+  height: auto; 
+  width: 30px; 
 } 
