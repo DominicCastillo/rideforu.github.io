@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+<<<<<<< HEAD
     <center class="mainForm">
 
         <h2>Crear Cuenta</h2><br><br><br>
@@ -35,17 +36,32 @@
     
         <button onclick="openGoogleSignIn()" class="google-btn btn">Registrarse con Google</button>
     </div>
+=======
+
+
+    <center class="mainForm">
+
+    <br><br><br><br>
+
+    <img class="logoImage" src="assets/img/logos2.svg" alt=""><br><br><br><br>
+>>>>>>> 63a9a0b57b3c6b5265e6ddedfe485d7755fe9479
 
     <script>
         function openGoogleSignIn() {
             window.open('https://accounts.google.com/signin/v2/identifier', '_blank');
         }
 
+<<<<<<< HEAD
         function validateForm() {
             var username = document.getElementById("username").value;
             var email = document.getElementById("email").value;
             var password = document.getElementById("password").value;
             var privacyPolicy = document.getElementById("privacyPolicy").checked;
+=======
+    <br><br><br><br><br>
+
+    </center>
+>>>>>>> 63a9a0b57b3c6b5265e6ddedfe485d7755fe9479
 
             if (username && email && password && privacyPolicy) {
                 return true;
