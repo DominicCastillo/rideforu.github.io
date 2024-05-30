@@ -9,13 +9,18 @@
     <title>Bienvenido a Ride 4 You</title>
 </head>
 <body>
-    
+
+
     <center class="mainForm">
 
-    <img class="logoImage" src="assets/img/cat.jpg" alt=""><br><br><br><br>
+    <br><br><br><br>
+
+    <img class="logoImage" src="assets/img/logos2.svg" alt=""><br><br><br><br>
 
     <a href="inicioSesionEstudiante.php" class="indexOptions">Estudiante</a><br><br><br><br>
     <a href="#" class="indexOptions">Conductor</a>
+
+    <br><br><br><br><br>
 
     </center>
 

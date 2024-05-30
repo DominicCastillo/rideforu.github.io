@@ -14,7 +14,7 @@
     <div class="mainStyle">
 
     <center>
-    <img src="assets/img/cat.jpg" alt="Logo Ride4u" width="80px" height="80px">
+    <img src="assets/img/logos2.svg" alt="Logo Ride4u" width="80px" height="80px">
     
     <br><br>
 
