@@ -1,0 +1,54 @@
+h2{
+    color: black;
+    text-align: center;
+}
+p{
+text-align: center;
+}
+
+div.publicidad{
+    margin: auto;
+    box-shadow: 0 4px 8px 0 lightskyblue; 
+    width: 200px;
+    padding: 15px;
+    
+}
+
+div.publicidad img{
+    width: 170px;
+    height: 175px;
+}
+
+div.anuncios{
+    text-align: center;
+    padding: 15px;
+}
+
+#boton-enviar {
+    background-color: #0074D9; 
+    color: #FFFFFF;
+    font-size: 18px; 
+    padding: 5px 5px 
+}
+
+#boton-enviar:hover {
+    background-color: #0056A7; 
+    cursor: pointer; 
+}
+
+button {
+    position: absolute;
+    top: auto;
+    right: 425px;
+    transform: translate(-50%, -20%);
+}
+
+
+
+body {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+}
