@@ -1,0 +1,26 @@
+ body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     margin: 0;
+     font-family: Arial, sans-serif;
+     background-color: #f8f8f8;
+ }
+
+ .container {
+     text-align: center;
+ }
+
+ .checkmark {
+     font-size: 100px;
+     color: #4caf50;
+ }
+
+ .message {
+     font-size: 24px;
+     margin-top: 20px;
+     color: #333;
+ }
+
+
