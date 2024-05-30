@@ -1,71 +1,82 @@
+body {
+  background-color: #f0f0f0;
+  font-family: 'Arial', sans-serif;
+}
+
 .mainForm {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    max-width: 380px;
-    background-color: white; /* Set the background to white */
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-}
-  
-.singInForm {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-  
-.formLabel {
-    font-weight: bold;
-    margin-bottom: 5px;
-    text-align: left;
-    width: 100%;
-}
-  
-.formInput {
-    width: 100%;
-    padding: 10px;
-    background-color: rgba(192, 208, 215, 1); /* Custom color for inputs */
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 15px;
-}
-  
-.singInForm input[type='submit'] {
-    background-color: rgba(0, 74, 173, 1); /* Bootstrap's primary color */
-    color: white;
-    font-size: large;
-    width: 380px;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-  
-.singInForm input[type='submit']:hover {
-    background-color: #0056b3; /* Darker shade for hover effect */
-}
-  
-.singInForm a {
-    text-decoration: none;
-    color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  max-width: 300px;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 50px;
 }
 
-.forgotPassword{
-    color: black;
+.uploadForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
+.uploadButton {
+  background-color: rgba(0, 74, 173, 1);
+  color: white;
+  font-size: large;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
 
-  
-.singInForm button {
-    width: 380px;
-    font-size: large;
-    background-color: white;
-    border: 1px solid #007bff;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
+.uploadButton:hover {
+  background-color: #0056b3;
 }
-  
-.singInForm button:hover {
-    background-color: #e0e0e0; /* Light gray on hover */
+
+.fileUploadContainer {
+  width: 100%;
 }
-  
+
+.fileEntry {
+  display: flex;
+  align-items: center;
+  background-color: #d3d3d3;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.fileEntry img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.fileLabel {
+  font-weight: bold;
+  flex: 1;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.fileInput {
+  display: none;
+}
+
+.submitButton {
+  background-color: rgba(0, 74, 173, 1);
+  color: white;
+  font-size: large;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}
