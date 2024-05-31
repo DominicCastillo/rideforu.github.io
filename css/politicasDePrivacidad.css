@@ -25,3 +25,7 @@
     color: rgb(55, 55, 55);
     font-size: large;
 }
+
+div a {
+    text-decoration: none;
+}

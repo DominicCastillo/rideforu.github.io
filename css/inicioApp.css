@@ -16,6 +16,12 @@
 
 .usuario h4 {
     display: inline;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 .buscador input {

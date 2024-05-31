@@ -6,5 +6,5 @@ function logout() {
 
 function cancelLogout() {
     // Redirigir a otra página
-    window.location.href = "perfil.html";
+    window.location.href = "perfil.php";
 }

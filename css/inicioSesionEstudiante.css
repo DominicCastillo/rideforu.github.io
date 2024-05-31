@@ -52,8 +52,6 @@
 .forgotPassword{
     color: black;
 }
-
-
   
 .singInForm button {
     width: 380px;
@@ -68,4 +66,3 @@
 .singInForm button:hover {
     background-color: #e0e0e0; /* Light gray on hover */
 }
-  

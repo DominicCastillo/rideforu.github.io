@@ -10,8 +10,10 @@
 <div class="main">
 
     <div class="usuario">
-        <img src="./assets/img/woman.png" alt="">
-        <h4 style="vertical-align: middle;">Bienvenida, Lizbeth Candray!</h4>
+        <a href="perfil.php">
+            <img src="./assets/img/woman.png" alt="">
+            <h4 style="vertical-align: middle;">Bienvenida, Lizbeth Candray!</h4>
+        </a>
     </div>
 
     <div class="buscador">
@@ -80,7 +82,7 @@
         <a href="notificacionesEstudiante.php" ><img src="./assets/img/bell-ring.png" alt="">notificaciones</a>
         </div>
         <div class="itemNav">
-        <a href="#" ><img src="./assets/img/user.png" alt="">perfil</a>
+        <a href="perfil.php" ><img src="./assets/img/user.png" alt="">perfil</a>
         </div>
     </div>
 

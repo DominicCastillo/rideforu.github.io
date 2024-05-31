@@ -6,6 +6,34 @@
     <title>Perfil de Usuario</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+<style>
+    
+.navbar {
+    display: flex; 
+    justify-content: space-around; 
+    background-color: #D9D9D9;
+    font-size: x-small;
+  }
+  
+.itemNav {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+}
+  
+.itemNav a {
+    display: block; 
+    margin: 5px 0; 
+    color: black; 
+    text-decoration: none;
+}
+  
+.itemNav img {
+    width: 20px; 
+    height: auto; 
+}
+</style>
 <body>
     <div class="profile-card">
         <div class="header">
@@ -15,7 +43,9 @@
                 <h3>Bienvenida</h3>
             </div>
             <div class="settings">
+                <a href="ajustesEstudiante.php">
                 <img src="assets/images/rueda-dentada.png" alt="Settings" class="settings-icon">
+                </a>
             </div>
         </div>
         <div class="details">
@@ -43,6 +73,23 @@
             
             </div>
         </div>
+        <div class="navbar">
+        <div class="itemNav">
+        <a class="active" href="inicioAppEstudiante.php"><img src="./assets/img/home.png" alt="">inicio</a> 
+        </div>
+        <div class="itemNav">
+        <a href="agendar.php" ><img src="./assets/img/chat.png" alt="">agenda</a> 
+        </div>
+        <div class="itemNav">
+        <a href="#" ><img src="./assets/img/calendar.png" alt="">chat</a> 
+        </div>
+        <div class="itemNav">
+        <a href="notificacionesEstudiante.php" ><img src="./assets/img/bell-ring.png" alt="">notificaciones</a>
+        </div>
+        <div class="itemNav">
+        <a href="perfil.php" ><img src="./assets/img/user.png" alt="">perfil</a>
+        </div>
+    </div>
     </div>
 </body>
 </html>

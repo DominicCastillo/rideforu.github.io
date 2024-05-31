@@ -14,7 +14,7 @@
 
         <h2>Crea tu cuenta de usuario.</h2><br><br><br>
 
-        <form class="singInForm" action="" method="POST">
+        <form class="singInForm" action="ingresarDatosVehiculo.php" method="POST">
 
             <label class="formLabel">Crea un Usuario</label><br>
             <input class="formInput" type="text" name="user" id="user"><br><br>
@@ -25,7 +25,7 @@
             <label class="formLabel">Confirma tu contraseña</label><br />
             <input class="formInput" type="password" name="password" id="password"><br><br>
 
-            <a href="ingresarDatosVehiculo.php"><input type="submit" value="Siguiente"><br><br></a>
+            <input type="submit" value="Siguiente"><br><br>
 
         </form>
     </center>

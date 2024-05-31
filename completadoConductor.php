@@ -10,7 +10,7 @@
 <body>
 
     <div class="container">
-        <a href="confirmacion_seguridad.php">
+        <a href="inicioAppConductor.php">
         <div class="checkmark">✔️</div>
         <div class="message">Su cuenta ha sido creada</div>
         </a>

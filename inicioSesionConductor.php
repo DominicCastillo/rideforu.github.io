@@ -14,7 +14,7 @@
 
 <h2>Iniciar Sesión</h2><br><br><br>
 
-<form class="singInForm" action="" method="POST">
+<form class="singInForm" action="inicioAppConductor.php" method="POST">
 
 <label class="formLabel">Correo electrónico</label><br>
 <input class="formInput" type="text" name="email" id="email"><br>

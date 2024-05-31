@@ -33,19 +33,19 @@
         <br><br>
         <div class="navbar">
             <div class="itemNav">
-             <a class="active" href="inicioApp.php"><img src="./assets/img/home.png" alt="">inicio</a> 
+             <a class="active" href="inicioAppConductor.php"><img src="./assets/img/home.png" alt="">inicio</a> 
             </div>
             <div class="itemNav">
-             <a href="agendar.php" ><img src="./assets/img/chat.png" alt="">agenda</a> 
+             <a href="chat.php" ><img src="./assets/img/chat.png" alt="">agenda</a> 
             </div>
             <div class="itemNav">
-             <a href="#" ><img src="./assets/img/calendar.png" alt="">chat</a> 
+             <a href="agendar.php" ><img src="./assets/img/calendar.png" alt="">chat</a> 
             </div>
             <div class="itemNav">
-             <a href="#" ><img src="./assets/img/bell-ring.png" alt="">notificaciones</a>
+             <a href="notificacionesConductor.php" ><img src="./assets/img/bell-ring.png" alt="">notificaciones</a>
             </div>
             <div class="itemNav">
-             <a href="#" ><img src="./assets/img/user.png" alt="">perfil</a>
+             <a href="autoAsignado.php" ><img src="./assets/img/user.png" alt="">perfil</a>
             </div>
         </div>
 
