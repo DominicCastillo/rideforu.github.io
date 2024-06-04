@@ -21,14 +21,7 @@
             <br>
             <br>
 
-            <div class="form-group">
-            <label for="nombre" class="form-label">Nombre</label><br>
-            <input class="form-control" name="nombre" type="text" id="nombre" placeholder="Escribe tu nombre">
-            </div>
 
-            <br>
-            <br>
-            <br>
 
             <div class="form-group">
             <label for="reseña" class="form-label">Reseña</label><br>
