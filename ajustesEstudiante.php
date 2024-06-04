@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="main">
-        <a href="#">
+        <a href="perfil.php">
             <img class="back" src="./assets/img/left-arrow.png" alt="">
         </a>
         <h2>Ajustes</h2>
@@ -17,7 +17,7 @@
         </center>
 
         <div class="btn">
-            <a href="" class="button-link">
+            <a href="editprofile.php" class="button-link">
                 <img class="item" src="./assets/img/pencil.png" alt="">
                 <span>Editar perfil</span>
                 <img class="arrow" src="./assets/img/right-arrow.png" alt="">
@@ -25,7 +25,7 @@
         </div>
         <br>
         <div class="btn">
-            <a href="" class="button-link">
+            <a href="sesion.php" class="button-link">
                 <img class="item" src="./assets/img/log-out.png" alt="">
                 <span>Cerrar sesión</span>
                 <img class="arrow" src="./assets/img/right-arrow.png" alt="">

@@ -41,8 +41,11 @@
     <br>
 
     <div>
-    <input type="checkbox" name="" id=""><p class="checkBoxText">Acepto los términos de privacidad</p>     
-    </div>
+    <input type="checkbox" name="privacyPolicy" id="privacyPolicy">
+    <label for="privacyPolicy" class="checkBoxText">
+    <a href="completado.php">He leído y acepto las políticas de privacidad</a>
+    </label>
+  </div>
        
     </center>
     

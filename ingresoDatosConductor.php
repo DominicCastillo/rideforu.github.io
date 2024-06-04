@@ -14,7 +14,7 @@
 
 <h2>Por favor, ingrese sus datos</h2><br><br><br>
 
-<form class="singInForm" action="" method="POST">
+<form class="singInForm" action="creacionCuentaConductor.php" method="POST">
 
   <label class="formLabel" >Nombre Completo:</label><br>
   <input class="formInput" type="text" name="email" id="email"><br>
@@ -33,7 +33,7 @@
 
   <label class="formLabel" >Carnet de estudiante:</label><br>
   <input class="formInput" type="text" name="idpass" id="idpass"><br>
-  <a href="ingresarDatosVehiculos.php"><input type="submit" value="Siguiente"></a>
+  <input type="submit" value="Siguiente">
   <br><br>
 
 </form>

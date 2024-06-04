@@ -13,7 +13,7 @@
 
 <h2>Por favor, ingrese sus datos</h2><br><br><br>
 
-<form class="singInForm" action="" method="POST">
+<form class="singInForm" action="subirArchivosCarro.php" method="POST">
 
   <label class="formLabel" >Modelo:</label><br>
   <input class="formInput" type="text" name="model" id="model"><br>
@@ -30,7 +30,7 @@
   <label class="formLabel" >Color de Vehículo:</label><br>
   <input class="formInput" type="text" name="carColor" id="carColors"><br>
 
-  <a href="subirArchivosCarro.php"><input type="submit" value="Siguiente"></a>
+  <input type="submit" value="Siguiente">
   <br><br>
 
 </form>
