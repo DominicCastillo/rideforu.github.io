@@ -15,6 +15,8 @@
 <h2>Por favor, ingrese sus datos</h2><br><br><br>
 
 <form class="singInForm" action="" method="POST">
+    <label class="formLabel">Correo:</label><br>
+    <input class="formInput" type="email" name="email" id="email"><br>
 
     <label class="formLabel">Contraseña:</label><br>
     <input class="formInput" type="password" name="password" id="password"><br>
@@ -73,7 +75,7 @@
         <option value="Ciudad Delgado">Ciudad Delgado</option>
     </select><br>
 
-    <a href=""><input type="submit" value="Siguiente"></a>
+    <a href=""><input type="submit" value="Siguiente" name="subirEstudiante"></a>
     <br><br>
 
 </form>
